@@ -13,3 +13,7 @@ my progress and contribution yocto project in tessolve
 <li><p>gcc 7.5 or greater.</p></li>
 <li><p>GNU make 4.0 or greater</p></li>
 </ul>
+
+#### code to install above,
+<pre class="wp-block-syntaxhighlighter-code">$ sudo apt update
+$ sudo apt install git git-lfs tar python3 python3-pip gcc</pre>
