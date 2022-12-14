@@ -20,4 +20,7 @@ locale.Error: unsupported locale setting
 
 ## Solution
 
-``````
+```
+export LC_ALL="en_US.utf8"
+export LC_CTYPE="en_US.utf8"
+```
