@@ -110,11 +110,12 @@ Inside build
 
 <pre>
 $ export BBPATH=$(pwd)
-$ echo $PATH
+$ export BUILDDIR=$(pwd)
 $ cd ../openembedded-core/bitbake/bin/
-$ export PATH=$(pwd):$PATH
-$ echo $PATH
-$ cd ../../..
+$ export PATH=$PATH:$(pwd)
+$ cd ../../scripts/
+$ export PATH=$PATH:$(pwd)
+$ cd ../..
 </pre>
 
 Build Image
