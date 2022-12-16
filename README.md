@@ -42,10 +42,12 @@ $ sudo apt install liblz4-tool
 pyenv
 
 dependancies
-```sudo apt install -y make build-essential libssl-dev zlib1g-dev \
+<pre>
+$ sudo apt install -y make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
 libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl \
-git```
+git
+</pre>
 
 <pre>
 $ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
