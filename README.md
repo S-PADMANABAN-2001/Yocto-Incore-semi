@@ -158,3 +158,12 @@ If sanity conf error solution
 $ touch conf/sanity.conf
 </pre>
 
+Arjun Sir's git log to be changed in case of error
+<pre>
+$ cd openembedded-core
+$ git checkout c9617c03bceee54dc540318cada392799b137bd5
+</pre>
+<pre>
+$ cd openembedded-core/bitbake
+$ git checkout 51cf7cf12d23b757aa49f428a256fb3d3c865f6d
+</pre>
