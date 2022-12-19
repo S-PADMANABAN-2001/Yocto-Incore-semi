@@ -14,7 +14,7 @@ Install essential host packages on the build host,
 
 <pre> 
 $ sudo apt install gawk 
-$ sudo apt installwget git 
+$ sudo apt install wget 
 $ sudo apt install diffstat
 $ sudo apt install unzip
 $ sudo apt install texinfo
