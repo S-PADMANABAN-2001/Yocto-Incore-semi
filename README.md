@@ -168,3 +168,15 @@ $ git checkout c9617c03bceee54dc540318cada392799b137bd5
 $ cd openembedded-core/bitbake
 $ git checkout 51cf7cf12d23b757aa49f428a256fb3d3c865f6d
 </pre>
+
+
+
+<pre>
+mkdir riscv-incoresemi && cd riscv-incoresemi
+repo init -u https://gitlab.com/outer_space/meta-incoresemi -m tools/manifests/incoresemi.xml
+pyenv activate yocto
+alias gcc='/usr/bin/gcc-9'
+repo sync
+. ./meta-incoresemi/setup.sh
+MACHINE=chromite-h bitbake opensbi
+</pre>
