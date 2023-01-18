@@ -1,0 +1,156 @@
+RDEPENDS:packagegroup-meta-oe-graphics ="\
+    cairomm \
+    directfb-examples \
+    directfb \
+    fbgrab \
+    dietsplash \
+    ${@bb.utils.contains("PACKAGE_CLASSES", "package_rpm", "dnfdragora", "", d)} \
+    fontforge \
+    fbida \
+    feh \
+    ${@bb.utils.contains("DISTRO_FEATURES", "opengl", "freeglut", "", d)} \
+    ftgl \
+    fvwm \
+    gtkperf \
+    gphoto2 \
+    imlib2 \
+    libgphoto2 \
+    graphene \
+    graphviz \
+    gtkwave \
+    jasper \
+    libforms \
+    lxdm \
+    numlockx \
+    nyancat \
+    obconf \
+    openbox \
+    packagegroup-fonts-truetype \
+    qrencode \
+    ${@bb.utils.contains("DISTRO_FEATURES", "x11", "st", "", d)} \
+    leptonica \
+    libvncserver \
+    libmng \
+    libsdl-gfx \
+    libsdl-image \
+    libsdl-mixer \
+    libsdl-net \
+    libsdl-ttf \
+    libsdl2-image \
+    libsdl2-mixer \
+    libsdl2-net \
+    ${@bb.utils.contains("DISTRO_FEATURES", "opengl", "libsdl2-ttf", "", d)} \
+    libsdl \
+    ${@bb.utils.contains("DISTRO_FEATURES", "wayland", "lv-drivers lvgl lv-lib-png", "", d)} \
+    ttf-arphic-uming \
+    ttf-droid-sans ttf-droid-sans-mono ttf-droid-sans-fallback ttf-droid-sans-japanese ttf-droid-serif \
+    ttf-abyssinica \
+    source-han-sans-cn-fonts \
+    source-han-sans-jp-fonts \
+    source-han-sans-kr-fonts \
+    source-han-sans-tw-fonts \
+    source-code-pro-fonts \
+    ttf-dejavu-sans \
+    ttf-dejavu-sans-condensed \
+    ttf-dejavu-sans-mono \
+    ttf-dejavu-serif \
+    ttf-dejavu-serif-condensed \
+    ttf-dejavu-mathtexgyre \
+    ttf-dejavu-common \
+    ttf-gentium \
+    ttf-hunky-sans \
+    ttf-hunky-serif \
+    ttf-ipag ttf-ipagp ttf-ipamp ttf-ipam \
+    ttf-lohit \
+    ttf-inconsolata \
+    ttf-liberation-sans-narrow \
+    ttf-liberation-mono \
+    ttf-liberation-sans \
+    ttf-liberation-serif \
+    ttf-lklug \
+    ttf-noto-emoji-color \
+    ttf-noto-emoji-regular \
+    ttf-sazanami-gothic \
+    ttf-sazanami-mincho \
+    ttf-takao-pgothic ttf-takao-gothic ttf-takao-pmincho ttf-takao-mincho \
+    ttf-tlwg \
+    ttf-roboto \
+    ttf-wqy-zenhei \
+    ttf-pt-sans \
+    ttf-vlgothic \
+    ttf-ubuntu-mono \
+    ttf-ubuntu-sans \
+    libyui-ncurses \
+    libyui \
+    x11vnc \
+    terminus-font-consolefonts \
+    terminus-font-pcf \
+    xdotool \
+    xkbevd \
+    bdftopcf \
+    iceauth \
+    sessreg \
+    xgamma \
+    setxkbmap \
+    xkbutils \
+    twm \
+    xclock \
+    xfontsel \
+    xkbprint \
+    xsetmode \
+    xlsatoms \
+    xlsclients \
+    xlsfonts \
+    xmag \
+    xmessage \
+    xrdb \
+    xrefresh \
+    xsetroot \
+    xstdcmap \
+    xterm \
+    xwd \
+    xwud \
+    xorg-sgml-doctools \
+    xf86-input-tslib \
+    xf86-input-void \
+    xf86-video-armsoc \
+    xf86-video-ati \
+    font-adobe-100dpi \
+    font-adobe-utopia-100dpi \
+    font-bh-100dpi \
+    font-bh-lucidatypewriter-100dpi \
+    font-bitstream-100dpi \
+    font-cursor-misc \
+    font-misc-misc \
+    xorg-fonts-100dpi \
+    liblbxutil \
+    libxaw6 \
+    libxkbui \
+    libxpresent \
+    xcb-util-cursor \
+    xserver-common \
+    openjpeg \
+    pangomm \
+    spirv-shader-generator \
+    spirv-tools \
+    stalonetray \
+    surf \
+    tesseract-lang \
+    tesseract \
+    ${@bb.utils.contains("DISTRO_FEATURES", "x11 pam", "tigervnc", "", d)} \
+    tslib \
+    unclutter-xfixes \
+    libvdpau \
+    xcursorgen \
+    ${@bb.utils.contains("DISTRO_FEATURES", "x11 pam", "xscreensaver", "", d)} \
+    yad \
+    parallel-deqp-runner \
+    ${@bb.utils.contains("DISTRO_FEATURES", "opengl", "opengl-es-cts", "", d)} \
+    ${@bb.utils.contains("DISTRO_FEATURES", "opengl vulkan", "vulkan-cts", "", d)} \
+"
+RDEPENDS:packagegroup-meta-oe-graphics:append:x86 = " renderdoc xf86-video-nouveau xf86-video-mga"
+RDEPENDS:packagegroup-meta-oe-graphics:append:x86-64 = " renderdoc xf86-video-nouveau xf86-video-mga"
+RDEPENDS:packagegroup-meta-oe-graphics:append:arm = " renderdoc"
+RDEPENDS:packagegroup-meta-oe-graphics:append:aarch64 = " renderdoc"
+
+RDEPENDS:packagegroup-meta-oe-graphics:remove:libc-musl = "renderdoc"
