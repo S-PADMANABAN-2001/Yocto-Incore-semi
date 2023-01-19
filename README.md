@@ -181,4 +181,4 @@ repo sync
 MACHINE=chromite-h bitbake opensbi
 </pre>
 repo init new
-```repo init -u https://gitlab.incoresemi.com/software/meta-incoresemi -m tools/manifests/incoresemi.xml```
+<pre> repo init -u https://gitlab.incoresemi.com/software/meta-incoresemi -m tools/manifests/incoresemi.xml</pre>
