@@ -182,3 +182,7 @@ MACHINE=chromite-h bitbake opensbi
 </pre>
 repo init new
 <pre> repo init -u https://gitlab.incoresemi.com/software/meta-incoresemi -m tools/manifests/incoresemi.xml</pre>
+
+
+didtro freature remove code
+```DISTRO_FEATURES:remove = "alsa bluetooth xmlto pcmcia wifi zeroconf pci 3g nfc xmlstarlet ttf toybox sqlite3 openssl socat openobex npth nng gsl glibc expat dtc duktape dnf diffstat dbench db czmq ace acl alsa-lib ssl bc beep bmon bmap-tools bluepy cairo cups ninja gcc libsdl libraw libol jack iotop htop tio x11 busybox xorg-sgml-doctools wayland pam ptest musl zlib systemd dool drbd ebtables ed enca gflags gosu gperf hidapi libass libassuan libao libcec libcgroup libcroco serial-forward sgpio"```
