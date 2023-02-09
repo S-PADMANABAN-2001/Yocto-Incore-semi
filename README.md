@@ -186,3 +186,8 @@ repo init new
 
 didtro freature remove code
 <pre>DISTRO_FEATURES:remove = "alsa bluetooth xmlto pcmcia wifi zeroconf pci 3g nfc xmlstarlet ttf toybox sqlite3 openssl socat openobex npth nng gsl glibc expat dtc duktape dnf diffstat dbench db czmq ace acl alsa-lib ssl bc beep bmon bmap-tools bluepy cairo cups ninja gcc libsdl libraw libol jack iotop htop tio x11 busybox xorg-sgml-doctools wayland pam ptest musl zlib systemd dool drbd ebtables ed enca gflags gosu gperf hidapi libass libassuan libao libcec libcgroup libcroco serial-forward sgpio"</pre>
+
+new
+<pre>
+DISTRO_FEATURES:remove = "alsa bluetooth pcmcia wifi zeroconf pci 3g nfc x11 zsync-curl zstd zsh zram zlib znc zlog zip zile zeromq zeroconf zchunk zbar zabbix yajl yaml-cpp yasm yavta yp-tools ypbind-mt pyrtm python3 python3-absl python3-absl-native python3-aenum python3-aenum-native python3-aiodns python3-aiofiles python3-aiohttp python3-aiohttp-jinja2 python3-aiohttp-jinja2-native python3-aiohue python3-aiosignal python3-aiosignal-native python3-alabaster python3-alabaster-native python3-alembic python3-alembic-native lvm2 lvm2-native lz4 lz4-native lzip lzip-native lzo lzo-native lzop lzop-native m4 m4-native macchanger mailcap make make-mod-scripts make-native makedepend makedepend-native makedevs makedevs-native makeself makeself-native man-db man-pages mariadbmariadb-native matchbox-session mbedtls mbedtls-native alsa-equal alsa-lib alsa-lib-native alsa-oss alsa-plugins alsa-state alsa-tools alsa-topology-conf alsa-ucm-conf alsa-utils android-tools android-tools-conf android-tools-conf-configfs android-tools-native anthy anthy-native aoetools aom"
+</pre>
