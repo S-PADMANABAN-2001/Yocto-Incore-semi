@@ -1,0 +1,1 @@
+DISTRO_FEATURES:remove = "alsa bluetooth pcmcia wifi zeroconf pci 3g nfc x11 acl api-documentation cramfs debuginfod directfb ext2 gobject-introspection-data ipsec ipv4 ipv6 keyboard multiarch ld-is-gold ldconfig lto nfc nfs nls opengl overlayfs pam polkit ppp ptest pulseaudio selinux seccomp smbfs systemd usbgadget usbhost usrmerge vfat vulkan wayland xattr"
