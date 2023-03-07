@@ -1,0 +1,1 @@
+IMAGE_FEATURE:remove = "x11 x11-base x11-sato weston debug-tweaks dev-pkgs tools-testapps tools-sdk tools-debug ssh-server-openssh ssh-server-dropbear perf nfs-server hwcodecs staticdev-pkgs stateless-rootfs splash serial-autologin-root ptest-pkgs overlayfs-etc lic-pkgs doc-pkgs dev-pkgs post-install-logging"
