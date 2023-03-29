@@ -1,5 +1,8 @@
 # Yocto-Incore-semi
 
+` file /media/padmanaban/e5fd8dba-c6a6-4243-8cee-aed03004ac1d/re2/build/tmp-glibc/deploy/images/chromite-h/fw_payload.elf` - current img file path
+
+
 ## Installation & Setup
 
 Dependancies 
