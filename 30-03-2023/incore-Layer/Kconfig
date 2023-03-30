@@ -1,0 +1,5 @@
+config INCORE_ETH
+tristate "IncoreEthernet"
+default m
+help
+Incore Ethernet Module
